@@ -1,9 +1,9 @@
-clear; close all; clc;
+
 
 g=9.81;
-m=1;
-M=2;
-l=1;
+M=5;
+m=0.3;
+l=0.6;
 
 %%
 s1=-2+2i;
@@ -25,7 +25,7 @@ C = eye(4);     % vagy amit szeretnél mérni
 D = zeros(4,1); % rendszerint nulla
 
 
-q11=10;
+q11=1;
 q22=1000;
 q33=1;
 q44=500;
